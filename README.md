@@ -12,7 +12,7 @@ We analyse tweets from Twitter - both real time (using tweepy) and through a dat
   Hashtag analysis is then performed by linking the recognized sentiment and the hashtag. Barplots of respective sentiments with the hashtags are visualized.
 
 
-**Twitter Sentiment analysis is also done with a pre-collected tweet dataset. **
+**Twitter Sentiment analysis is also done with a pre-collected tweet dataset**
 
   After cleaning the tweets in the DataFrame, MultiNomial Naive Bayes Classification and Logistic Regression are performed. 
   The results along are displayed with confusion matrix and metrics like precision, recall etc.

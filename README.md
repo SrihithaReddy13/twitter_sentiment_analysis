@@ -12,7 +12,8 @@ We analyse tweets from Twitter - both real time (using tweepy) and through a dat
   Hashtag analysis is then performed by linking the recognized sentiment and the hashtag. Barplots of respective sentiments with the hashtags are visualized.
 
 
-**Twitter Sentiment analysis with a pre-collected tweet dataset**
+**Twitter Sentiment analysis with a pre-collected tweet dataset:**
+
   The corpus used in this case study is Niek Sanders’ Corpus of over 5000 hand-classified tweets. 
   Being hand-classified makes this corpus quite reliable to evaluate the training models.
   After cleaning the tweets in the DataFrame, MultiNomial Naive Bayes Classification and Logistic Regression are performed. 
